@@ -3206,6 +3206,1579 @@ border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
 onmouseover=&quot;this.src=&#39;https://i.imgur.com/Xn5PZ8f.png&#39;&quot;
 onmouseout=&quot;this.src=&#39;https://i.imgur.com/a1EAkzj.png&#39;&quot;
 border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="22" name="evento17" tags="" position="1400,2400" size="100,100">&lt;style&gt;
+	
+	body{
+		background-color: white;
+	}
+	
+	.box {
+	margin-top: -135px;
+	justify-content: space-between;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  	width: 100%;
+  	align-content: space-between;
+	display: flex;
+
+}	
+
+	.choices{
+	margin-top: -15%;
+	margin-left: 61%;
+  height: 10%;
+  position: absolute;
+	}
+	
+	#city{
+	position: fixed;
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	}
+	
+	#cog{
+	top: 0px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	
+	}
+
+	#letter{
+	bottom: 10px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	}
+
+&lt;/style&gt;
+
+&lt;div class=&quot;box&quot;&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $coin lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $coin gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/lPGYwl3.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/wO9limi.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/fVPXhyC.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/aQvv0UJ.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $army lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $army gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+
+&lt;&lt;elseif $army is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MISLxBZ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/eQDy9a4.png&quot;&gt;
+
+&lt;&lt;elseif $army is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/UWkNebJ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/nPaH1Pp.png&quot;&gt;
+
+&lt;&lt;elseif $army is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div &gt;
+
+&lt;&lt;if $religion lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $religion gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/kiNZfHf.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/u1DXRiE.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/vIU2EAe.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MHvpE0D.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+&lt;div &gt;
+
+&lt;&lt;if $people lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $people gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+
+&lt;&lt;elseif $people is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/qcwQHrT.png&quot;&gt;
+
+&lt;&lt;elseif $people is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/b5wCmq0.png&quot;&gt;
+
+&lt;&lt;elseif $people is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/Lncgzc4.png&quot;&gt;
+
+&lt;&lt;elseif $people is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/C5wxkAY.png&quot;&gt;
+
+&lt;&lt;elseif $people is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+
+&lt;/div&gt;
+
+&lt;a data-passage=&quot;Configuration&quot;&gt;&lt;img id=&quot;cog&quot; src=&quot;https://i.imgur.com/ERa1vP0.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/jZKdF3L.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/ERa1vP0.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;a href=&quot;#popup1&quot;&gt;&lt;img id=&quot;letter&quot; src=&quot;https://i.imgur.com/VebeKfH.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/vijuNGd.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/VebeKfH.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;img src=&quot;https://i.imgur.com/p2H03zg.gif&quot; id=&quot;city&quot;&gt;
+
+&lt;div id=&quot;popup1&quot; class=&quot;overlay&quot;&gt;
+	&lt;div class=&quot;popup&quot;
+		&lt;div class=&quot;content&quot;&gt;
+		  &lt;img src=&quot;https://i.imgur.com/nS94tVv.png&quot; style=&quot;width: 70%;&quot;/&gt;
+		  		  &lt;div class = &quot;choices&quot;&gt;
+
+@@width: 10%;
+[img[https://i.imgur.com/2Qpf80x.png][evento18][$coin = $coin - 1;$people = $people + 1;$religion = $religion - 1]]
+@@
+
+@@
+[img[https://i.imgur.com/YV1SA96.png][evento18][$coin = $coin + 1;$religion = $religion + 1;$people = $people -1]]
+@@
+
+
+		&lt;/div&gt;
+
+		
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="23" name="evento18" tags="" position="1403,2527.5" size="100,100">&lt;style&gt;
+	
+	body{
+		background-color: white;
+	}
+	
+	.box {
+	margin-top: -135px;
+	justify-content: space-between;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  	width: 100%;
+  	align-content: space-between;
+	display: flex;
+
+}	
+
+	.choices{
+	margin-top: -15%;
+	margin-left: 61%;
+  height: 10%;
+  position: absolute;
+	}
+	
+	#city{
+	position: fixed;
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	}
+	
+	#cog{
+	top: 0px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	
+	}
+
+	#letter{
+	bottom: 10px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	}
+
+&lt;/style&gt;
+
+&lt;div class=&quot;box&quot;&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $coin lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $coin gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/lPGYwl3.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/wO9limi.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/fVPXhyC.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/aQvv0UJ.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $army lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $army gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+
+&lt;&lt;elseif $army is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MISLxBZ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/eQDy9a4.png&quot;&gt;
+
+&lt;&lt;elseif $army is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/UWkNebJ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/nPaH1Pp.png&quot;&gt;
+
+&lt;&lt;elseif $army is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div &gt;
+
+&lt;&lt;if $religion lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $religion gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/kiNZfHf.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/u1DXRiE.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/vIU2EAe.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MHvpE0D.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+&lt;div &gt;
+
+&lt;&lt;if $people lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $people gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+
+&lt;&lt;elseif $people is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/qcwQHrT.png&quot;&gt;
+
+&lt;&lt;elseif $people is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/b5wCmq0.png&quot;&gt;
+
+&lt;&lt;elseif $people is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/Lncgzc4.png&quot;&gt;
+
+&lt;&lt;elseif $people is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/C5wxkAY.png&quot;&gt;
+
+&lt;&lt;elseif $people is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+
+&lt;/div&gt;
+
+&lt;a data-passage=&quot;Configuration&quot;&gt;&lt;img id=&quot;cog&quot; src=&quot;https://i.imgur.com/ERa1vP0.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/jZKdF3L.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/ERa1vP0.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;a href=&quot;#popup1&quot;&gt;&lt;img id=&quot;letter&quot; src=&quot;https://i.imgur.com/VebeKfH.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/vijuNGd.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/VebeKfH.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;img src=&quot;https://i.imgur.com/p2H03zg.gif&quot; id=&quot;city&quot;&gt;
+
+&lt;div id=&quot;popup1&quot; class=&quot;overlay&quot;&gt;
+	&lt;div class=&quot;popup&quot;
+		&lt;div class=&quot;content&quot;&gt;
+		  &lt;img src=&quot;https://i.imgur.com/5Sg1Ifi.png&quot; style=&quot;width: 70%;&quot;/&gt;
+		  		  &lt;div class = &quot;choices&quot;&gt;
+
+@@width: 10%;
+[img[https://i.imgur.com/2Qpf80x.png][evento19][$people = $people - 2;$coin = $coin + 2]]
+@@
+
+@@
+[img[https://i.imgur.com/YV1SA96.png][evento19][$coin = $coin - 1;$people = $people + 1]]
+@@
+
+
+		&lt;/div&gt;
+
+		
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="24" name="evento19" tags="" position="1401,2652.5" size="100,100">&lt;style&gt;
+	
+	body{
+		background-color: white;
+	}
+	
+	.box {
+	margin-top: -135px;
+	justify-content: space-between;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  	width: 100%;
+  	align-content: space-between;
+	display: flex;
+
+}	
+
+	.choices{
+	margin-top: -15%;
+	margin-left: 61%;
+  height: 10%;
+  position: absolute;
+	}
+	
+	#city{
+	position: fixed;
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	}
+	
+	#cog{
+	top: 0px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	
+	}
+
+	#letter{
+	bottom: 10px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	}
+
+&lt;/style&gt;
+
+&lt;div class=&quot;box&quot;&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $coin lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $coin gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/lPGYwl3.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/wO9limi.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/fVPXhyC.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/aQvv0UJ.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $army lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $army gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+
+&lt;&lt;elseif $army is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MISLxBZ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/eQDy9a4.png&quot;&gt;
+
+&lt;&lt;elseif $army is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/UWkNebJ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/nPaH1Pp.png&quot;&gt;
+
+&lt;&lt;elseif $army is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div &gt;
+
+&lt;&lt;if $religion lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $religion gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/kiNZfHf.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/u1DXRiE.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/vIU2EAe.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MHvpE0D.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+&lt;div &gt;
+
+&lt;&lt;if $people lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $people gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+
+&lt;&lt;elseif $people is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/qcwQHrT.png&quot;&gt;
+
+&lt;&lt;elseif $people is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/b5wCmq0.png&quot;&gt;
+
+&lt;&lt;elseif $people is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/Lncgzc4.png&quot;&gt;
+
+&lt;&lt;elseif $people is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/C5wxkAY.png&quot;&gt;
+
+&lt;&lt;elseif $people is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+
+&lt;/div&gt;
+
+&lt;a data-passage=&quot;Configuration&quot;&gt;&lt;img id=&quot;cog&quot; src=&quot;https://i.imgur.com/ERa1vP0.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/jZKdF3L.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/ERa1vP0.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;a href=&quot;#popup1&quot;&gt;&lt;img id=&quot;letter&quot; src=&quot;https://i.imgur.com/VebeKfH.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/vijuNGd.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/VebeKfH.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;img src=&quot;https://i.imgur.com/p2H03zg.gif&quot; id=&quot;city&quot;&gt;
+
+&lt;div id=&quot;popup1&quot; class=&quot;overlay&quot;&gt;
+	&lt;div class=&quot;popup&quot;
+		&lt;div class=&quot;content&quot;&gt;
+		  &lt;img src=&quot;https://i.imgur.com/NL4Qiu5.png&quot; style=&quot;width: 70%;&quot;/&gt;
+		  		  &lt;div class = &quot;choices&quot;&gt;
+
+@@width: 10%;
+[img[https://i.imgur.com/2Qpf80x.png][evento20]]@@
+
+@@
+[img[https://i.imgur.com/YV1SA96.png][evento20]]
+@@
+
+		&lt;/div&gt;
+
+		
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="25" name="evento20" tags="" position="1401,2774.5" size="100,100">&lt;style&gt;
+	
+	body{
+		background-color: white;
+	}
+	
+	.box {
+	margin-top: -135px;
+	justify-content: space-between;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  	width: 100%;
+  	align-content: space-between;
+	display: flex;
+
+}	
+
+	.choices{
+	margin-top: -15%;
+	margin-left: 61%;
+  height: 10%;
+  position: absolute;
+	}
+	
+	#city{
+	position: fixed;
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	}
+	
+	#cog{
+	top: 0px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	
+	}
+
+	#letter{
+	bottom: 10px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	}
+
+&lt;/style&gt;
+
+&lt;div class=&quot;box&quot;&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $coin lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $coin gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/lPGYwl3.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/wO9limi.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/fVPXhyC.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/aQvv0UJ.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $army lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $army gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+
+&lt;&lt;elseif $army is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MISLxBZ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/eQDy9a4.png&quot;&gt;
+
+&lt;&lt;elseif $army is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/UWkNebJ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/nPaH1Pp.png&quot;&gt;
+
+&lt;&lt;elseif $army is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div &gt;
+
+&lt;&lt;if $religion lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $religion gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/kiNZfHf.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/u1DXRiE.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/vIU2EAe.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MHvpE0D.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+&lt;div &gt;
+
+&lt;&lt;if $people lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $people gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+
+&lt;&lt;elseif $people is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/qcwQHrT.png&quot;&gt;
+
+&lt;&lt;elseif $people is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/b5wCmq0.png&quot;&gt;
+
+&lt;&lt;elseif $people is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/Lncgzc4.png&quot;&gt;
+
+&lt;&lt;elseif $people is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/C5wxkAY.png&quot;&gt;
+
+&lt;&lt;elseif $people is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+
+&lt;/div&gt;
+
+&lt;a data-passage=&quot;Configuration&quot;&gt;&lt;img id=&quot;cog&quot; src=&quot;https://i.imgur.com/ERa1vP0.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/jZKdF3L.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/ERa1vP0.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;a href=&quot;#popup1&quot;&gt;&lt;img id=&quot;letter&quot; src=&quot;https://i.imgur.com/VebeKfH.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/vijuNGd.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/VebeKfH.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;img src=&quot;https://i.imgur.com/p2H03zg.gif&quot; id=&quot;city&quot;&gt;
+
+&lt;div id=&quot;popup1&quot; class=&quot;overlay&quot;&gt;
+	&lt;div class=&quot;popup&quot;
+		&lt;div class=&quot;content&quot;&gt;
+		  &lt;img src=&quot;https://i.imgur.com/GGfT5yP.png&quot; style=&quot;width: 70%;&quot;/&gt;
+		  		  &lt;div class = &quot;choices&quot;&gt;
+
+@@width: 10%;
+[img[https://i.imgur.com/2Qpf80x.png][evento21][$coin = $coin + 2;$people = $people - 2]]
+@@
+
+@@
+[img[https://i.imgur.com/YV1SA96.png][evento21][$coin = $coin - 1;$people = $people + 1]]
+@@
+
+
+		&lt;/div&gt;
+
+		
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="evento21" tags="" position="1403,2895.5" size="100,100">&lt;style&gt;
+	
+	body{
+		background-color: white;
+	}
+	
+	.box {
+	margin-top: -135px;
+	justify-content: space-between;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  	width: 100%;
+  	align-content: space-between;
+	display: flex;
+
+}	
+
+	.choices{
+	margin-top: -15%;
+	margin-left: 61%;
+  height: 10%;
+  position: absolute;
+	}
+	
+	#city{
+	position: fixed;
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	}
+	
+	#cog{
+	top: 0px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	
+	}
+
+	#letter{
+	bottom: 10px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	}
+
+&lt;/style&gt;
+
+&lt;div class=&quot;box&quot;&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $coin lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $coin gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/lPGYwl3.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/wO9limi.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/fVPXhyC.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/aQvv0UJ.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $army lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $army gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+
+&lt;&lt;elseif $army is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MISLxBZ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/eQDy9a4.png&quot;&gt;
+
+&lt;&lt;elseif $army is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/UWkNebJ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/nPaH1Pp.png&quot;&gt;
+
+&lt;&lt;elseif $army is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div &gt;
+
+&lt;&lt;if $religion lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $religion gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/kiNZfHf.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/u1DXRiE.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/vIU2EAe.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MHvpE0D.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+&lt;div &gt;
+
+&lt;&lt;if $people lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $people gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+
+&lt;&lt;elseif $people is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/qcwQHrT.png&quot;&gt;
+
+&lt;&lt;elseif $people is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/b5wCmq0.png&quot;&gt;
+
+&lt;&lt;elseif $people is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/Lncgzc4.png&quot;&gt;
+
+&lt;&lt;elseif $people is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/C5wxkAY.png&quot;&gt;
+
+&lt;&lt;elseif $people is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+
+&lt;/div&gt;
+
+&lt;a data-passage=&quot;Configuration&quot;&gt;&lt;img id=&quot;cog&quot; src=&quot;https://i.imgur.com/ERa1vP0.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/jZKdF3L.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/ERa1vP0.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;a href=&quot;#popup1&quot;&gt;&lt;img id=&quot;letter&quot; src=&quot;https://i.imgur.com/VebeKfH.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/vijuNGd.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/VebeKfH.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;img src=&quot;https://i.imgur.com/p2H03zg.gif&quot; id=&quot;city&quot;&gt;
+
+&lt;div id=&quot;popup1&quot; class=&quot;overlay&quot;&gt;
+	&lt;div class=&quot;popup&quot;
+		&lt;div class=&quot;content&quot;&gt;
+		  &lt;img src=&quot;https://i.imgur.com/VgfcX02.png&quot; style=&quot;width: 70%;&quot;/&gt;
+		  		  &lt;div class = &quot;choices&quot;&gt;
+
+@@width: 10%;
+[img[https://i.imgur.com/2Qpf80x.png][evento22][$coin = $coin + 1;$army = $army - 1;$people = $people - 1]]
+@@
+
+@@
+[img[https://i.imgur.com/YV1SA96.png][evento22][$coin = $coin - 1;$people = $people - 1;$army = $army + 1]]
+@@
+
+		&lt;/div&gt;
+
+		
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="27" name="evento22" tags="" position="1396,3021.5" size="100,100">&lt;style&gt;
+	
+	body{
+		background-color: white;
+	}
+	
+	.box {
+	margin-top: -135px;
+	justify-content: space-between;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  	width: 100%;
+  	align-content: space-between;
+	display: flex;
+
+}	
+
+	.choices{
+	margin-top: -15%;
+	margin-left: 61%;
+  height: 10%;
+  position: absolute;
+	}
+	
+	#city{
+	position: fixed;
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	}
+	
+	#cog{
+	top: 0px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	
+	}
+
+	#letter{
+	bottom: 10px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	}
+
+&lt;/style&gt;
+
+&lt;div class=&quot;box&quot;&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $coin lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $coin gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/lPGYwl3.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/wO9limi.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/fVPXhyC.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/aQvv0UJ.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $army lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $army gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+
+&lt;&lt;elseif $army is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MISLxBZ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/eQDy9a4.png&quot;&gt;
+
+&lt;&lt;elseif $army is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/UWkNebJ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/nPaH1Pp.png&quot;&gt;
+
+&lt;&lt;elseif $army is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div &gt;
+
+&lt;&lt;if $religion lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $religion gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/kiNZfHf.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/u1DXRiE.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/vIU2EAe.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MHvpE0D.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+&lt;div &gt;
+
+&lt;&lt;if $people lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $people gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+
+&lt;&lt;elseif $people is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/qcwQHrT.png&quot;&gt;
+
+&lt;&lt;elseif $people is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/b5wCmq0.png&quot;&gt;
+
+&lt;&lt;elseif $people is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/Lncgzc4.png&quot;&gt;
+
+&lt;&lt;elseif $people is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/C5wxkAY.png&quot;&gt;
+
+&lt;&lt;elseif $people is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+
+&lt;/div&gt;
+
+&lt;a data-passage=&quot;Configuration&quot;&gt;&lt;img id=&quot;cog&quot; src=&quot;https://i.imgur.com/ERa1vP0.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/jZKdF3L.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/ERa1vP0.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;a href=&quot;#popup1&quot;&gt;&lt;img id=&quot;letter&quot; src=&quot;https://i.imgur.com/VebeKfH.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/vijuNGd.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/VebeKfH.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;img src=&quot;https://i.imgur.com/p2H03zg.gif&quot; id=&quot;city&quot;&gt;
+
+&lt;div id=&quot;popup1&quot; class=&quot;overlay&quot;&gt;
+	&lt;div class=&quot;popup&quot;
+		&lt;div class=&quot;content&quot;&gt;
+		  &lt;img src=&quot;https://i.imgur.com/WwTxOsH&quot; style=&quot;width: 70%;&quot;/&gt;
+		  		  &lt;div class = &quot;choices&quot;&gt;
+
+@@width: 10%;
+[img[https://i.imgur.com/2Qpf80x.png][evento23][$army = $army - 2;$people = $people + 2]]
+@@
+
+@@
+[img[https://i.imgur.com/YV1SA96.png][evento23][$people = $people - 2;$army = $army + 1]]
+@@
+		&lt;/div&gt;
+
+		
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="28" name="evento23" tags="" position="1401,3153.5" size="100,100">&lt;style&gt;
+	
+	body{
+		background-color: white;
+	}
+	
+	.box {
+	margin-top: -135px;
+	justify-content: space-between;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  	width: 100%;
+  	align-content: space-between;
+	display: flex;
+
+}	
+
+	.choices{
+	margin-top: -15%;
+	margin-left: 61%;
+  height: 10%;
+  position: absolute;
+	}
+	
+	#city{
+	position: fixed;
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	}
+	
+	#cog{
+	top: 0px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	
+	}
+
+	#letter{
+	bottom: 10px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	}
+
+&lt;/style&gt;
+
+&lt;div class=&quot;box&quot;&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $coin lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $coin gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/lPGYwl3.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/wO9limi.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/fVPXhyC.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/aQvv0UJ.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $army lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $army gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+
+&lt;&lt;elseif $army is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MISLxBZ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/eQDy9a4.png&quot;&gt;
+
+&lt;&lt;elseif $army is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/UWkNebJ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/nPaH1Pp.png&quot;&gt;
+
+&lt;&lt;elseif $army is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div &gt;
+
+&lt;&lt;if $religion lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $religion gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/kiNZfHf.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/u1DXRiE.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/vIU2EAe.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MHvpE0D.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+&lt;div &gt;
+
+&lt;&lt;if $people lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $people gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+
+&lt;&lt;elseif $people is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/qcwQHrT.png&quot;&gt;
+
+&lt;&lt;elseif $people is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/b5wCmq0.png&quot;&gt;
+
+&lt;&lt;elseif $people is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/Lncgzc4.png&quot;&gt;
+
+&lt;&lt;elseif $people is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/C5wxkAY.png&quot;&gt;
+
+&lt;&lt;elseif $people is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+
+&lt;/div&gt;
+
+&lt;a data-passage=&quot;Configuration&quot;&gt;&lt;img id=&quot;cog&quot; src=&quot;https://i.imgur.com/ERa1vP0.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/jZKdF3L.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/ERa1vP0.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;a href=&quot;#popup1&quot;&gt;&lt;img id=&quot;letter&quot; src=&quot;https://i.imgur.com/VebeKfH.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/vijuNGd.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/VebeKfH.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;img src=&quot;https://i.imgur.com/p2H03zg.gif&quot; id=&quot;city&quot;&gt;
+
+&lt;div id=&quot;popup1&quot; class=&quot;overlay&quot;&gt;
+	&lt;div class=&quot;popup&quot;
+		&lt;div class=&quot;content&quot;&gt;
+		  &lt;img src=&quot;https://i.imgur.com/7Ru4zGW&quot; style=&quot;width: 70%;&quot;/&gt;
+		  		  &lt;div class = &quot;choices&quot;&gt;
+
+@@width: 10%;
+[img[https://i.imgur.com/2Qpf80x.png][evento24][$army = $army - 1;$people = $people + 1;$coin = $coin -1]]
+@@
+
+@@
+[img[https://i.imgur.com/YV1SA96.png][evento24][$people = $people - 2;$army = $army - 2]]
+@@
+		&lt;/div&gt;
+
+		
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="29" name="evento24" tags="" position="1401,3280.5" size="100,100">&lt;style&gt;
+	
+	body{
+		background-color: white;
+	}
+	
+	.box {
+	margin-top: -135px;
+	justify-content: space-between;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  	width: 100%;
+  	align-content: space-between;
+	display: flex;
+
+}	
+
+	.choices{
+	margin-top: -15%;
+	margin-left: 61%;
+  height: 10%;
+  position: absolute;
+	}
+	
+	#city{
+	position: fixed;
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	}
+	
+	#cog{
+	top: 0px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	
+	}
+
+	#letter{
+	bottom: 10px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	}
+
+&lt;/style&gt;
+
+&lt;div class=&quot;box&quot;&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $coin lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $coin gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/lPGYwl3.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/wO9limi.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/fVPXhyC.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/aQvv0UJ.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $army lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $army gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+
+&lt;&lt;elseif $army is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MISLxBZ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/eQDy9a4.png&quot;&gt;
+
+&lt;&lt;elseif $army is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/UWkNebJ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/nPaH1Pp.png&quot;&gt;
+
+&lt;&lt;elseif $army is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div &gt;
+
+&lt;&lt;if $religion lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $religion gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/kiNZfHf.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/u1DXRiE.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/vIU2EAe.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MHvpE0D.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+&lt;div &gt;
+
+&lt;&lt;if $people lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $people gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+
+&lt;&lt;elseif $people is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/qcwQHrT.png&quot;&gt;
+
+&lt;&lt;elseif $people is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/b5wCmq0.png&quot;&gt;
+
+&lt;&lt;elseif $people is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/Lncgzc4.png&quot;&gt;
+
+&lt;&lt;elseif $people is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/C5wxkAY.png&quot;&gt;
+
+&lt;&lt;elseif $people is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+
+&lt;/div&gt;
+
+&lt;a data-passage=&quot;Configuration&quot;&gt;&lt;img id=&quot;cog&quot; src=&quot;https://i.imgur.com/ERa1vP0.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/jZKdF3L.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/ERa1vP0.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;a href=&quot;#popup1&quot;&gt;&lt;img id=&quot;letter&quot; src=&quot;https://i.imgur.com/VebeKfH.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/vijuNGd.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/VebeKfH.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;img src=&quot;https://i.imgur.com/p2H03zg.gif&quot; id=&quot;city&quot;&gt;
+
+&lt;div id=&quot;popup1&quot; class=&quot;overlay&quot;&gt;
+	&lt;div class=&quot;popup&quot;
+		&lt;div class=&quot;content&quot;&gt;
+		  &lt;img src=&quot;https://i.imgur.com/Kymuw3m&quot; style=&quot;width: 70%;&quot;/&gt;
+		  		  &lt;div class = &quot;choices&quot;&gt;
+
+@@width: 10%;
+[img[https://i.imgur.com/2Qpf80x.png][evento25][$army = $army = 0;$people = $people = 0;$coin = $coin = 0; $religion = $religion = 0]]
+@@
+
+@@
+[img[https://i.imgur.com/YV1SA96.png][evento25][$army = $army = 0;$people = $people = 0;$coin = $coin = 0; $religion = $religion = 0]]
+@@
+&lt;/div&gt;
+
+		
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="30" name="evento25" tags="" position="1401,3413.5" size="100,100">&lt;style&gt;
+	
+	body{
+		background-color: white;
+	}
+	
+	.box {
+	margin-top: -135px;
+	justify-content: space-between;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+  	width: 100%;
+  	align-content: space-between;
+	display: flex;
+
+}	
+
+	.choices{
+	margin-top: -15%;
+	margin-left: 61%;
+  height: 10%;
+  position: absolute;
+	}
+	
+	#city{
+	position: fixed;
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	}
+	
+	#cog{
+	top: 0px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	
+	}
+
+	#letter{
+	bottom: 10px;
+	max-width:10%;
+	position: fixed;
+	max-height:10%;
+	margin-right: auto;
+	margin-left: auto;
+	right: 10px;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	}
+
+&lt;/style&gt;
+
+&lt;div class=&quot;box&quot;&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $coin lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $coin gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/lPGYwl3.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/wO9limi.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/fVPXhyC.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/aQvv0UJ.png&quot;&gt;
+
+&lt;&lt;elseif $coin is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/XCcyZG5.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+
+&lt;div &gt;
+
+&lt;&lt;if $army lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $army gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+
+&lt;&lt;elseif $army is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MISLxBZ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/eQDy9a4.png&quot;&gt;
+
+&lt;&lt;elseif $army is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/UWkNebJ.png&quot;&gt;
+
+&lt;&lt;elseif $army is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/nPaH1Pp.png&quot;&gt;
+
+&lt;&lt;elseif $army is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/WLPh7xG.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;div &gt;
+
+&lt;&lt;if $religion lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $religion gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/kiNZfHf.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/u1DXRiE.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/vIU2EAe.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/MHvpE0D.png&quot;&gt;
+
+&lt;&lt;elseif $religion is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/3umAp7M.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;/div&gt;
+&lt;div &gt;
+
+&lt;&lt;if $people lte 0&gt;&gt;&lt;&lt;goto over&gt;&gt;
+
+&lt;&lt;elseif $people gt 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+
+&lt;&lt;elseif $people is 1&gt;&gt;&lt;img src=&quot;https://i.imgur.com/qcwQHrT.png&quot;&gt;
+
+&lt;&lt;elseif $people is 2 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/b5wCmq0.png&quot;&gt;
+
+&lt;&lt;elseif $people is 3 &gt;&gt;&lt;img src=&quot;https://i.imgur.com/Lncgzc4.png&quot;&gt;
+
+&lt;&lt;elseif $people is 4&gt;&gt;&lt;img src=&quot;https://i.imgur.com/C5wxkAY.png&quot;&gt;
+
+&lt;&lt;elseif $people is 5&gt;&gt;&lt;img src=&quot;https://i.imgur.com/9EeJ1ED.png&quot;&gt;
+&lt;&lt;/if&gt;&gt;
+
+
+&lt;/div&gt;
+
+&lt;a data-passage=&quot;Configuration&quot;&gt;&lt;img id=&quot;cog&quot; src=&quot;https://i.imgur.com/ERa1vP0.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/jZKdF3L.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/ERa1vP0.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;a href=&quot;#popup1&quot;&gt;&lt;img id=&quot;letter&quot; src=&quot;https://i.imgur.com/VebeKfH.png&quot; 
+onmouseover=&quot;this.src=&#39;https://i.imgur.com/vijuNGd.png&#39;&quot;
+onmouseout=&quot;this.src=&#39;https://i.imgur.com/VebeKfH.png&#39;&quot;
+border=&quot;0&quot; alt=&quot;&quot;/&gt;&lt;/a&gt;
+
+&lt;img src=&quot;https://i.imgur.com/p2H03zg.gif&quot; id=&quot;city&quot;&gt;
+
+&lt;div id=&quot;popup1&quot; class=&quot;overlay&quot;&gt;
+	&lt;div class=&quot;popup&quot;
+		&lt;div class=&quot;content&quot;&gt;
+		  &lt;img src=&quot;https://i.imgur.com/rurBNAc.png&quot; style=&quot;width: 70%;&quot;/&gt;
+		  		  &lt;div class = &quot;choices&quot;&gt;
+
+@@width: 10%;
+[img[https://i.imgur.com/2Qpf80x.png][over][$army = $army = 0;$people = $people = 0;$coin = $coin = 0; $religion = $religion = 0]]
+@@
+
+@@
+[img[https://i.imgur.com/YV1SA96.png][over][$army = $army = 0;$people = $people = 0;$coin = $coin = 0; $religion = $religion = 0]]
+@@
+&lt;/div&gt;
+
+		
+		&lt;/div&gt;
+	&lt;/div&gt;
 &lt;/div&gt;</tw-passagedata></tw-storydata></div>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
